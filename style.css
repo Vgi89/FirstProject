@@ -1,0 +1,101 @@
+/*---background---*/
+body {
+	background-color: #434c55;
+	font-family: arial;
+	color: #ffffff;
+	width: 600px;
+	margin: 30px auto;
+}
+
+h1 {
+	color:white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+h5 {
+	color:white;
+	text-align: center;
+	padding: 0;
+	margin: 16px;
+}
+
+.type {
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	color: #ffffff;
+	background-color: #434c55;
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 0 30px;
+	width: 260px;
+}
+
+button:first-child {
+	background-color: #00ace8;
+	border: 1px solid #00ace8;
+}
+
+button:hover {	
+	color: #222;
+	border: 1px solid #00ace8;
+}
+
+button h4, p {
+	margin: 10px 0;
+}
+
+.or {
+	margin: auto 20px;
+	color: #ffffff;
+}
+
+hr {
+	margin: 0;
+	border: 1px solid #00ace8;
+}
+
+article {
+	justify-content: space-between;
+}
+
+.info h4 {
+	margin: 28px 0 9px 0;
+}
+
+.info article {
+	display: flex;
+}
+
+.section_1 input {
+	display: flex;
+}
+
+.info input {
+	border: none;
+	outline: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	color: #fff;
+}
+
+.skill h4 {
+	margin: 28px 0 9px 0;
+}
+
+.skill div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill button {
+	width: 130px;
+	text-align: center;
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+}
